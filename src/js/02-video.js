@@ -1,5 +1,5 @@
 import Player from '@vimeo/player';
-
+import throttle from 'lodash.throttle';
 // вынос локального хранилища в переменную
 const CURRENT_TIME_KEY = 'videoplayer-current-time';
 
